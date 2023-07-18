@@ -14,7 +14,7 @@ def pagina_inicial(request):
 def turmas(request):
     turmas = Turma.objects.all().order_by('-data_criacao')
     context = {'turmas': turmas}
-    return render(request, 'app_gerencia_turmas/turmas.html', context)
+    return render(request, 'turmas.html', context)
 
 
 def turma_detalhe(request, turma_id):
