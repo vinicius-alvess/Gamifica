@@ -79,10 +79,12 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'projeto_gamifica',
-        'USER': 'root',
-        'PASSWORD': 'Viniciu$18',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'MYSQL_URL': 'mysql://root:KjSpJS3i71esorKchYcZ@containers-us-west-141.railway.app:6576/railway',
+        'MYSQLDATABASE': 'railway',
+        'MYSQLHOST': 'containers-us-west-141.railway.app',
+        'MYSQLSENHA': 'KjSpJS3i71esorKchYcZ',
+        'MYSQLPORT': '6576',
+        'MYSQLUSER': 'root'
     }
 }
 
