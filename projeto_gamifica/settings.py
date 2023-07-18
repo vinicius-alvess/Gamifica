@@ -78,11 +78,12 @@ WSGI_APPLICATION = 'projeto_gamifica.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'projeto_gamifica',
-        'USER': 'root',
-        'PASSWORD': 'Viniciu$18',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'DATABASE_URL': 'postgresql://postgres:eTou5jifZBzHXOYsba7Y@containers-us-west-174.railway.app:7900/railway',
+        'PGDATABASE': 'railway',
+        'PGHOST': 'containers-us-west-174.railway.app',
+        'PGPASSWORD': 'eTou5jifZBzHXOYsba7Y',
+        'PGPORT': '7900',
+        'PGUSER': 'postgres',
     }
 }
 
