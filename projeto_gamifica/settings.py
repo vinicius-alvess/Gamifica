@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-@(2)75!_i#jo3_$vctuq$=d&&87xh2k&vsms1_pkxejxt-g8q$'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -78,12 +78,12 @@ WSGI_APPLICATION = 'projeto_gamifica.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'DATABASE_URL': 'postgresql://postgres:eTou5jifZBzHXOYsba7Y@containers-us-west-174.railway.app:7900/railway',
-        'PGDATABASE': 'railway',
-        'PGHOST': 'containers-us-west-174.railway.app',
-        'PGPASSWORD': 'eTou5jifZBzHXOYsba7Y',
-        'PGPORT': '7900',
-        'PGUSER': 'postgres',
+        'DATABASE_URL': '',
+        'PGDATABASE': '',
+        'PGHOST': '',
+        'PGPASSWORD': '',
+        'PGPORT': '',
+        'PGUSER': '',
     }
 }
 
